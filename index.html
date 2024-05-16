@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Magazine</title>
+    <!-- Box-icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container d-flex justify-content-between align-items-center gap-4">
+
+            <div class="logo">
+                <a href="#"><img src="./icons/header_logo.svg" alt="logo"></a>
+
+                <h1 class="d-sm-none">+38 (071) 339-16-26</h1>
+            </div>
+
+            <nav class="nav gap-2 d-none d-lg-flex gap-3">
+                <li>
+                    <a href="#" class="text-decoration-none text-black">Aksiyalar</a>
+                </li>
+
+                <li>
+                    <a href="#" class="text-decoration-none text-black">Katalog</a>
+                </li>
+
+                <li>
+                    <a href="#" class="text-decoration-none text-black">Yetkazib berish</a>
+                </li>
+
+                <li>
+                    <a href="#" class="text-decoration-none text-black">Magazin haqida</a>
+                </li>
+
+                <li>
+                    <a href="#" class="text-decoration-none text-black">Blog</a>
+                </li>
+            </nav>
+
+
+            <div class="search_input d-none d-sm-flex align-items-center justify-content-between">
+                <span class="search_icon">
+                    <i class='bx bx-search'></i>
+                </span>
+
+                <input type="text" placeholder="Поиск">
+            </div>
+
+            <div class="menu d-flex gap-3 align-items-center justify-content-be">
+                <a href="#"><img src="./icons/header_favourite_icon.svg" alt="icon" class="d-none d-sm-block"></a>
+                <a href="#"><img src="./icons/header_cart_icon.svg" alt="icon" class="d-none d-sm-block"></a>
+                <div class="dropdown">
+                    <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        2.199 sotildi.
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><button class="dropdown-item" type="button">Roman 1215</button></li>
+                        <li><button class="dropdown-item" type="button">Detektiv 500</button></li>
+                        <li><button class="dropdown-item" type="button">Qissalar 484</button></li>
+                    </ul>
+                </div>
+                <img src="./icons/header_menu_icon.svg" alt="icon" class="d-md-none">
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <section id="intro">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-12 col-lg-6 d-lg-flex align-items-lg-center justify-content-lg-center">
+
+                        <div class="intro_title">
+
+                            <h1 class="fs-1 text-sm-center">TUIT BOOKS</h1>
+
+                            <p class="mt-5 text-sm-center">Web ilovamizga xush kelibsiz!!! Siz bu yerda o'zingizni qiziqtirgan kitoblarni yuklab olishingiz mumkin.</p>
+
+                            <button class="btn shadow text-light mx-auto d-block">Tavsiya etiladi</button>
+                        </div>
+                    </div>
+
+                    <div class="col-12 mt-5 col-lg-6">
+                        <img src="/images/card_5.jpg" alt="image" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="products">
+            <div class="container pt-5">
+
+                <div class="wrapper_list d-md-flex align-items-center justify-content-between">
+                    <h1>Tavsiya etiladi</h1>
+
+                    <ul class="d-flex mt-3 justify-content-between gap-5 mx-auto">
+                        <li class="list-unstyled">
+                            <a href="#" class="text-decoration-none">Asar</a>
+                        </li>
+
+                        <li class="list-unstyled">
+                            <a href="#" class="text-decoration-none">Roman</a>
+                        </li>
+
+                        <li class="list-unstyled">
+                            <a href="#" class="text-decoration-none">Detektiv</a>
+                        </li>
+
+                        <li class="list-unstyled d-none d-md-block">
+                            <a href="#" class="text-decoration-none">Qissalar</a>
+                        </li>
+
+                        <li class="list-unstyled">
+                            <a href="#" class="text-decoration-none">Boshqa</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="grid row-cols-1 d-flex gap-5 pt-5 align-items-center">
+                    <div class="col-12 col-sm-4 col-md-2 mx-auto">
+                        <div class="card">
+                            <img src="./images/card_1.jpg" alt="product">
+
+                            <h1>7.9$.</h1>
+
+                            <h2>O'tgan kunlar</h2>
+
+                            <p>Abdulla qodiriy</p>
+
+                            <div class="btn_card">
+
+                                <button>Savatga</button>
+
+                                <img src="./icons/card_favourite.svg" alt="icon">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-4 col-md-2">
+                        <div class="card">
+                            <img src="./images/card_2.jpg" alt="product">
+
+                            <h1>6.7$.</h1>
+
+                            <h2>Mehrobdan chayon</h2>
+
+                            <p>Abdulla Qodiriy</p>
+
+                            <div class="btn_card">
+
+                                <button>Savatga</button>
+
+                                <img src="./icons/card_favourite.svg" alt="icon">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-4 col-md-2">
+                        <div class="card">
+                            <img src="./images/card_3.jpg" alt="product">
+
+                            <h1>5.00$.</h1>
+
+                            <h2>So'ngi sahifa</h2>
+
+                            <p>Salimjon Jo'raboev</p>
+
+                            <div class="btn_card">
+
+                                <button>Savatga</button>
+
+                                <img src="./icons/card_favourite.svg" alt="icon">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-4 col-md-2">
+                        <div class="card">
+                            <img src="./images/card_4.jpg" alt="product">
+
+                            <h1>10.00$.</h1>
+
+                            <h2>Qadr kechasi qotillik</h2>
+
+                            <p>Komil Sindarov</p>
+
+                            <div class="btn_card">
+
+                                <button>Savatga</button>
+
+                                <img src="./icons/card_favourite.svg" alt="icon">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-4 col-md-2">
+                        <div class="card">
+                            <img src="./images/card_5.jpg" alt="product">
+
+                            <h1>12.00$.</h1>
+
+                            <h2>UFQ</h2>
+
+                            <p>Said Ahmad</p>
+
+                            <div class="btn_card">
+
+                                <button>Savatga</button>
+
+                                <img src="./icons/card_favourite.svg" alt="icon">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="container pt-5">
+
+                <div class="wrapper_list">
+                    <h1 class="text-center">Aksiyalar</h1>
+                </div>
+
+                <div class="grid row-cols-1 d-flex gap-5 pt-5 align-items-center">
+                    <div class="col-12 col-sm-4 col-md-2 mx-auto">
+                        <div class="card">
+                            <img src="./images/aksiya_1.jpg" alt="product">
+
+                            <h3 class="text-end text-danger text-decoration-line-through fs-5">8.00$.</h3>
+
+                            <h1>6.7$.</h1>
+
+                            <h2>Otamdan qolgan dalalar</h2>
+
+                            <p>Tog'ay Murod</p>
+
+                            <div class="btn_card">
+
+                                <button>Savatga</button>
+
+                                <img src="./icons/card_favourite.svg" alt="icon">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-4 col-md-2">
+                        <div class="card">
+                            <img src="./images/aksiya_2.jpg" alt="product">
+
+                            <h3 class="text-end text-danger text-decoration-line-through fs-5">10$.</h3>
+
+                            <h1>8.2$.</h1>
+
+                            <h2>7 Buyuk</h2>
+
+                            <p>A.Muhammad Tursun</p>
+
+                            <div class="btn_card">
+
+                                <button>Savatga</button>
+
+                                <img src="./icons/card_favourite.svg" alt="icon">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-4 col-md-2">
+                        <div class="card">
+                            <img src="./images/aksiya_3.jpg" alt="product">
+
+                            <h3 class="text-end text-danger text-decoration-line-through fs-5">7.4$.</h3>
+
+                            <h1>5.6$.</h1>
+
+                            <h2>Robiyatul Adaviya</h2>
+
+                            <p>Erol Aykach</p>
+
+                            <div class="btn_card">
+
+                                <button>Savatga</button>
+
+                                <img src="./icons/card_favourite.svg" alt="icon">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-4 col-md-2">
+                        <div class="card">
+                            <img src="./images/aksiya_4.jpg" alt="product">
+
+                            <h3 class="text-end text-danger text-decoration-line-through fs-5">11$</h3>
+
+                            <h1>9.2$.</h1>
+
+                            <h2>Saodat asr kitoblari</h2>
+
+                            <p>Ahmad Lutfiy Qozonchi</p>
+
+                            <div class="btn_card">
+
+                                <button>Savatga</button>
+
+                                <img src="./icons/card_favourite.svg" alt="icon">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-4 col-md-2">
+                        <div class="card">
+                            <img src="./images/aksiya_5.jpg" alt="product">
+
+                            <h3 class="text-end text-danger text-decoration-line-through fs-5">7.4$.</h3>
+
+                            <h1>6.00$.</h1>
+
+                            <h2>Bas qil ey nafs</h2>
+
+                            <p>Fotih Duman</p>
+
+                            <div class="btn_card">
+
+                                <button>Savatga</button>
+
+                                <img src="./icons/card_favourite.svg" alt="icon">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="catalog">
+            <div class="container">
+
+                <div class="wrapper_list">
+                    <h1 class="text-center">Katalog</h1>
+                </div>
+
+                <div class="row gap-5 mx-auto mt-5">
+                    <div class="col-12 col-sm-3 mx-auto">
+                        <div class="wrap mx-auto">
+                            <h1>Kitoblar</h1>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-3 mx-auto">
+                        <div class="wrap mx-auto">
+                            <h1>Elektron kitoblar</h1>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-3 mx-auto">
+                        <div class="wrap mx-auto">
+                            <h1>Audio kitoblar</h1>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-3 mx-auto">
+                        <div class="wrap mx-auto">
+                            <h1>Kitob aksessuarlar</h1>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-3 mx-auto">
+                        <div class="wrap mx-auto">
+                            <h1>Bolalar uchun</h1>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-3 mx-auto">
+                        <div class="wrap mx-auto">
+                            <h1>Fanga oid</h1>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-3 mx-auto">
+                        <div class="wrap mx-auto">
+                            <h1>Sovg'alar</h1>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-3 mx-auto">
+                        <div class="wrap mx-auto">
+                            <h1>Biologiyalar</h1>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-3 mx-auto">
+                        <div class="wrap mx-auto">
+                            <h1>Aksiyalar</h1>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="pt-5 mb-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3 d-flex gap-4 align-items-center">
+                        <p class="display-3 fw-bold">35</p>
+                        <p>Xalqaro filliallarimiz</p>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3 d-flex gap-4 align-items-center">
+                        <p class="display-3 fw-bold">880</p>
+                        <p>Barcha kataloglar</p>
+                    </div>
+
+
+                    <div class="col-12 col-md-6 col-lg-3 d-flex gap-4 align-items-center">
+                        <p class="display-3 fw-bold">8659</p>
+                        <p>Sotilgan</p>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3 d-flex gap-4 align-items-center">
+                        <p class="display-3 fw-bold">72</p>
+                        <p>Soatda yetkazib berish</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+</body>
+
+<script src="./index.js"></script>
+
+</html>
